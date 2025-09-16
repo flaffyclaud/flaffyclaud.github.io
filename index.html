@@ -3,99 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>flaffyclaud.github.io</title>
+  <title>Mohammad Aman | flaffyclaud</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
   <style>
+    :root {
+      color-scheme: dark;
+    }
     body {
       font-family: 'Roboto', Arial, sans-serif;
-      background: #f7f9fb;
+      background: #181a1b;
+      color: #e0e0e0;
       margin: 0;
       padding: 0;
-      color: #222;
     }
     header {
-      background: #222;
-      color: #fff;
-      padding: 2rem 0;
+      background: #23272a;
+      padding: 2rem 0 1rem 0;
       text-align: center;
-    }
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-      padding: 2rem;
+      border-bottom: 1px solid #222;
     }
     h1 {
-      margin-top: 0;
-      font-size: 2.6rem;
+      font-size: 2.4rem;
       font-weight: 700;
+      margin: 0;
     }
-    p {
-      font-size: 1.18rem;
-      line-height: 1.7;
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #bdbdbd;
+      margin-top: 0.5rem;
     }
-    .repo-list {
-      margin: 2rem 0 0 0;
-      padding: 0;
-      list-style: none;
+    main {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: #222326;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+      padding: 2rem;
     }
-    .repo-list li {
-      margin-bottom: 1rem;
+    section {
+      margin-bottom: 2rem;
     }
-    .repo-list a {
-      color: #1976d2;
-      text-decoration: none;
+    h2 {
+      color: #90caf9;
+      font-size: 1.4rem;
       font-weight: 500;
+      margin-bottom: 0.8rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 0 0;
+    }
+    ul li {
+      margin-bottom: 0.7rem;
+      padding-left: 1.2em;
+      position: relative;
+    }
+    ul li:before {
+      content: '•';
+      color: #90caf9;
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    a {
+      color: #90caf9;
+      text-decoration: none;
       transition: color 0.2s;
     }
-    .repo-list a:hover {
-      color: #1565c0;
+    a:hover {
+      color: #42a5f5;
       text-decoration: underline;
+    }
+    .skills-list li:before {
+      color: #ffd54f;
+    }
+    .fun-list li:before {
+      color: #ffb74d;
     }
     footer {
       text-align: center;
       padding: 2rem 0 1rem 0;
       color: #888;
-      font-size: 0.98rem;
+      font-size: 0.95rem;
+      background: #23272a;
+      border-top: 1px solid #222;
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+        margin: 1rem;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to flaffyclaud.github.io</h1>
-    <p>Your personal GitHub Pages root domain</p>
+    <h1>Mohammad Aman (flaffyclaud)</h1>
+    <p class="subtitle">Avid Linux Enthusiast • Cybersecurity • Programmer</p>
   </header>
   <main>
-    <p>
-      This is the root index page for <strong>flaffyclaud.github.io</strong>. Here you'll find links to my projects, resources, and information about me.
-    </p>
-    <h2>Featured Repositories</h2>
-    <ul class="repo-list">
-      <li>
-        <a href="https://github.com/flaffyclaud/TTYDM---A-Simple-TTY-Desktop-Manager-for-Linux" target="_blank">
-          TTYDM - A Simple TTY Desktop Manager for Linux
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/flaffyclaud/flaffyclaud.github.io" target="_blank">
-          flaffyclaud.github.io (This Site)
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/flaffyclaud/flaffyclaud" target="_blank">
-          flaffyclaud (Profile Repo)
-        </a>
-      </li>
-    </ul>
-    <h2>About</h2>
-    <p>
-      Hi, I'm <strong>flaffyclaud</strong>. Welcome to my GitHub Pages site! Explore my projects, check out my code, or reach out to collaborate.
-    </p>
+    <section>
+      <h2>🚀 Featured Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/flaffyclaud/TTYDM---A-Simple-TTY-Desktop-Manager-for-Linux" target="_blank">
+            TTYDM: A Simple TTY Desktop Manager for Linux
+          </a>
+          <br>
+          <span style="color:#bdbdbd;font-size:0.98em;">
+            A lightweight, efficient desktop manager for your Linux TTY sessions.
+          </span>
+        </li>
+        <li>
+          <a href="https://github.com/flaffyclaud/flaffyclaud.github.io" target="_blank">
+            flaffyclaud.github.io (This Site)
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/flaffyclaud/flaffyclaud" target="_blank">
+            flaffyclaud (Profile Repo)
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>💡 Skills</h2>
+      <ul class="skills-list">
+        <li>Linux system administration & customization</li>
+        <li>Cybersecurity problem-solving</li>
+        <li>C, Java, Shell scripting</li>
+      </ul>
+    </section>
+    <section>
+      <h2>🎹 Fun Facts</h2>
+      <ul class="fun-list">
+        <li>When I'm not hacking away at code or exploring Linux internals, you'll find me playing the piano.</li>
+        <li>I'm also an auto enthusiast—always keen to discuss cars and engineering!</li>
+      </ul>
+    </section>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Always learning, always building.<br>
+        Explore my projects, check out my code, or reach out to collaborate!
+      </p>
+    </section>
   </main>
   <footer>
-    &copy; 2025 flaffyclaud &mdash; <a href="https://github.com/flaffyclaud" target="_blank" style="color:inherit;">GitHub Profile</a>
+    &copy; 2025 Mohammad Aman (<a href="https://github.com/flaffyclaud" target="_blank" style="color:inherit;">flaffyclaud</a>)
   </footer>
 </body>
 </html>
